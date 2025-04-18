@@ -17,3 +17,6 @@ accounts.db
 # Results
 result/
 
+# Test
+test/
+
