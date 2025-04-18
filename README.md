@@ -9,9 +9,9 @@ docker run -p 8000:8000 <name>
 ```
 
 # Test
-> Visit to [Docs](http://localhost:8000/docs)
-> Click on `Try it out`
-> Enter `q` as `https://www.google.com`
-> Enter `depth` as 1 
-> Hit `Execute` 
+> 1. Visit to the [Docs](http://localhost:8000/docs)
+> 2. Click on `Try it out`
+> 3. Enter `q` as `https://www.google.com`
+> 4. Enter `depth` as 1 
+> 5. Hit `Execute` 
 
