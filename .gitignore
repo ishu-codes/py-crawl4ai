@@ -1,0 +1,19 @@
+
+# Virtual Env
+.venv/
+
+# Cache Files
+__pycache__/
+
+# Env Files
+.env
+
+# Cookies file 
+cookies.txt
+
+# Accounts db
+accounts.db 
+
+# Results
+result/
+
