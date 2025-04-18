@@ -22,7 +22,11 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {
+        "title": "py-crawl4ai",
+        "version": "0.1",
+        "author": "Ishu"
+    }
 
 @app.get("/api/markdown")
 async def get_markdown_endpoint(q: Union[str, None] = None, depth:Union[int, None]=0):
@@ -30,3 +34,4 @@ async def get_markdown_endpoint(q: Union[str, None] = None, depth:Union[int, Non
         return {"status": "error", "message":"query not provided"}
     result = await get_markdown(q, depth or 0)
     return {"result": result}
+
